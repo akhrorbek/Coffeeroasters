@@ -155,12 +155,12 @@ img {
 
 /*-------OUR COLLECTION SECTION---*/
 .collection {
-    height: 490px;
     padding-top: 136px;
     background-image: url("../images/collection-background.png");
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: 50% 160px;
     background-size: 1280px 200px;
+    padding-bottom: 236px;
 
 }
 .collection-list {
@@ -207,4 +207,96 @@ img {
 .item-paragraph:hover {
     font-weight: 700;
     color: black;
+}
+
+/*-----SERVICE-SECTION---*/
+.service-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("../images/Bitmap-color.png");
+    background-repeat: no-repeat;
+    height: 577px;
+    background-position:center;
+}
+.service-header {
+    margin: 0;
+    padding: 0;
+    margin-top: 64px;
+    font-family: 'Fraunces72pt';
+    font-style: normal;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    color: #FEFCF7;
+}
+.service-paragraph {
+    margin: 0;
+    padding: 0;
+    margin-top: 32px;
+    width: 540px;
+    height: 80px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #FEFCF7;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
+.service-list {
+    display: flex;
+    position: absolute;
+    top: 1920px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.service-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom:50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 85px;
+    background: #0E8784;
+    border-radius: 8px;
+
+}
+.service-item + .service-item {
+    margin-left: 25px;
+}
+.service-item-image {
+    margin-bottom: 56px;
+}
+.service-item-header {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 25px;
+    width: 255px;
+    height: 32px;
+    text-align: center;
+    font-family: 'Fraunces72pt';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+   color: #FFFFFF;
+}
+.service-item-paragraph {
+    margin: 0;
+    padding: 0;
+    width: 255px;
+    height: 78px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;
+    opacity:0.7;
+}
+.delivery-image {
+    margin-bottom: 78px;
 }
