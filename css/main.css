@@ -115,8 +115,7 @@ img {
     font-family: 'Fraunces72pt';
     font-size: 72px;
     line-height: 72px;
-    /*color: #FEFCF7;*/
-    color:aliceblue;
+    color: #FEFCF7;
 }
 .hero-paragraph {
     margin: 0;
