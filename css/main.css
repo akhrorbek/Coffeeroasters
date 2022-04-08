@@ -1,9 +1,35 @@
+@font-face {
+    font-family: 'Barlow';
+    src: url("../fonts/Barlow-Regular.ttf"),
+         url("../fonts/Barlow-Regular.woff"),
+         url("../fonts/Barlow-Regular.woff2");
+}
+@font-face {
+    font-family: 'Barlow';
+    src: url("../fonts/Barlow-Medium.ttf"),
+         url("../fonts/Barlow-Medium.woff"),
+         url("../fonts/Barlow-Medium.woff2");
+}
+@font-face {
+    font-family: 'Barlow';
+    src: url("../fonts/Barlow-SemiBold.ttf"),
+         url("../fonts/Barlow-SemiBold.woff"),
+         url("../fonts/Barlow-SemiBold.woff2");
+}
+@font-face {
+    font-family: 'Barlow';
+    src: url("../fonts/Barlow-Bold.ttf"),
+         url("../fonts/Barlow-Bold.woff"),
+         url("../fonts/Barlow-Bold.woff2");
+    font-weight: bold;
+}
 * {
     box-sizing: border-box;
 }
 body {
     margin: 0;
     padding: 0;
+    font-family: 'Barlow';
 }
 img {
     display: inline-block;
@@ -12,4 +38,41 @@ img {
     width:1320px;
     margin:0 auto;
     padding:0 20px;
+    padding-top: 25px;
+}
+
+/*-----SITE HEADER---*/
+
+.site-top-part {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-link {
+    text-decoration: none;
+}
+.nav-list {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style:none;
+}
+.nav-item + .nav-item {
+    margin-left:33px;
+}
+.item-link {
+    text-decoration:none;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.923077px;
+    color: #83888F;
+}
+.item-link:hover {
+    color:black;
+    font-weight: 700;
+    opacity:0.9;
+}
+.item-link:active {
+    opacity:0.7;
 }
