@@ -1,8 +1,8 @@
 @font-face {
     font-family: 'Barlow';
-    src: url("../fonts/Barlow-Regular.ttf"),
-         url("../fonts/Barlow-Regular.woff"),
-         url("../fonts/Barlow-Regular.woff2");
+    src: url("../fonts/BarlowCondensed-Regular.ttf"),
+         url("../fonts/BarlowCondensed-Regular.woff"),
+         url("../fonts/BarlowCondensed-Regular.woff2");
 }
 @font-face {
     font-family: 'Barlow';
@@ -30,6 +30,14 @@
          url("../fonts/Fraunces72pt-Bold.woff2");
     font-weight: bold;
 }
+@font-face {
+    font-family: 'Fraunces72pt';
+    src: url("../fonts/Fraunces-Black.ttf"),
+         url("../fonts/Fraunces-Black.woff"),
+         url("../fonts/Fraunces-Black.woff2");
+    font-weight: 900;
+}
+
 * {
     box-sizing: border-box;
 }
@@ -143,4 +151,60 @@ img {
 }
 .hero-link:active {
     opacity:0.7;
+}
+
+/*-------OUR COLLECTION SECTION---*/
+.collection {
+    height: 490px;
+    padding-top: 136px;
+    background-image: url("../images/collection-background.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1280px 200px;
+
+}
+.collection-list {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    margin-top: 156px;
+    height: 399px;
+    list-style: none;
+}
+.collection-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.item-image {
+    margin-bottom: 72px;
+}
+.item-header {
+    margin: 0;
+    padding: 0;
+    font-family: 'Fraunces72pt';
+    font-weight: 900;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #333D4B;
+    margin-bottom: 24px;
+}
+.item-paragraph {
+    margin: 0;
+    padding: 0;
+    width: 255px;
+    height: 134px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #333D4B;
+}
+.item-paragraph:hover {
+    font-weight: 700;
+    color: black;
 }
